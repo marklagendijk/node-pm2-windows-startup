@@ -1,6 +1,6 @@
 {
   "name": "pm2-windows-startup",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Utility to make PM2 automatically resurrect on Windows startup",
   "author": "Mark Lagendijk <mark@lagendijk.info>",
   "license": "MIT",
