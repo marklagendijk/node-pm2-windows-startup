@@ -1,5 +1,5 @@
 {
-  "name": "node-pm2-windows-startup",
+  "name": "pm2-windows-startup",
   "version": "1.0.0",
   "description": "Utility to make PM2 automatically resurrect on Windows startup",
   "author": "Mark Lagendijk <mark@lagendijk.info>",
