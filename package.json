@@ -1,6 +1,6 @@
 {
   "name": "pm2-windows-startup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility to make PM2 automatically resurrect on Windows startup",
   "author": "Mark Lagendijk <mark@lagendijk.info>",
   "license": "MIT",
@@ -8,13 +8,17 @@
     "start-on-windows-boot": "^1.0.0",
     "yargs": "^3.15.0"
   },
-  "preferGlobal": true,
-  "bin": {
-    "pm2-startup": "index.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/marklagendijk/node-pm2-windows-startup"
+  },
+  "bugs": {
+    "url": "https://github.com/marklagendijk/node-pm2-windows-startup/issues"
+  },
+  "homepage": "https://github.com/marklagendijk/node-pm2-windows-startup",
+  "preferGlobal": true,
+  "bin": {
+    "pm2-startup": "index.js"
   },
   "keywords": [
     "pm2",
@@ -23,8 +27,7 @@
     "start",
     "startup"
   ],
-  "bugs": {
-    "url": "https://github.com/marklagendijk/node-pm2-windows-startup/issues"
-  },
-  "homepage": "https://github.com/marklagendijk/node-pm2-windows-startup"
+  "engines": {
+    "node": ">=0.10"
+  }
 }
