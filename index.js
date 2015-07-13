@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var startOnBoot = require('start-on-windows-boot');
 var argv = require('yargs')
     .usage('Usage: pm2-startup <command>')
